@@ -1,0 +1,167 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+*{font-family: Georgia, "Times New Roman", Times, serif;}
+
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: rgb(201, 194, 194);
+}
+
+header {
+  background: white;
+  padding: 10px
+}
+
+h1 {
+  padding: 30px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: teal;
+  text-align: center;
+}
+
+h3{color: teal;}
+.row{
+  padding: 10px;
+  margin: 10px;
+  
+  
+}
+.navbar-brand{
+  background-color: teal;
+  color: white;
+  font-size: 26px;
+  
+}
+
+p{line-height: 40px; margin-bottom: 30px;}
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 10px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 900px; margin: 10px; }
+
+.col-lg-7{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.col-lg-4{
+  
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.col-sm-12{
+  
+  background-color: white;
+  padding: 10px;
+  
+}
+
+.col-md-5{
+  
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+}
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+#main-image {
+  width: 450px;
+  height: 350px;
+  margin-right: 20px;
+  
+}
+#left-image {
+  width: 200px;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+table{
+  margin:10px;
+  width="100%"; border="0"; overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
+}
+
+
+.dropbtn {
+
+  padding: 11px;
+  background-color: #555;
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: teal;}
+
+.comphead{color: teal; font-weight: 100; font-size: 30px; }
